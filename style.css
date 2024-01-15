@@ -1,0 +1,44 @@
+.container-xxl{
+    background-image: url(./FootballPlayers.png);
+    width: 1349px;
+    height: 800px;
+    margin-bottom: 200px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    transition: 0.7s ease;
+    margin-right: 40px;
+    border-radius: 20px;
+
+}
+.card:hover{
+    transform: scale(1.1)
+}
+.mtd{
+    margin-top: 20px;
+}
+.z{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+.a{
+    margin-bottom: 40px;
+}
+
+.card-title{
+    color: black;
+}
+.card-text{
+    color: black;
+}
+
+.card-body{
+    background-color: bisque;
+    border-radius: 10px;
+}
